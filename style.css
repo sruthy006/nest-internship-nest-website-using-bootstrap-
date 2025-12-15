@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar .nav-link.active {
+    font-weight: bold;
+    color: #ffc107 !important;
+}
+
+.carousel-item img {
+  height: 500px;       /* Adjust height as needed */
+  object-fit: cover;   /* Ensures the image fills the area without distortion */
+  width: 100%;
+}
+
+
+/* Cards */
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h2 {
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Forms */
+form input, form textarea {
+    border-radius: 5px;
+}
